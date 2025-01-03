@@ -1,0 +1,6 @@
+Estimated rho (persistence of income shocks): 0.9441899729781386
+95% CI for rho: (0.9437703645442105, 0.9445955738338977)
+Estimated variance of transitory shocks (sigma_eta^2): 0.0672447799508552
+95% CI for sigma_eta^2: (0.06683108799733349, 0.06758979886543359)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.5433710067584161
+95% CI for sigma_alpha^2: (0.5424839360577294, 0.5441660827569366)

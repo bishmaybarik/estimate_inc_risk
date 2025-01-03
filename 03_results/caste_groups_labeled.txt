@@ -1,0 +1,48 @@
+Muslims Group:
+Estimated rho (persistence of income shocks): 0.9388976843030356
+95% CI for rho: (0.9373419413872706, 0.9402447774313302)
+Estimated variance of transitory shocks (sigma_eta^2): 0.055492353437774644
+95% CI for sigma_eta^2: (0.05465313750329553, 0.05650580625412221)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.40875027547555154
+95% CI for sigma_alpha^2: (0.40636228138388586, 0.4113314201315822)
+
+Other Religions Group:
+Estimated rho (persistence of income shocks): 0.9508053672888014
+95% CI for rho: (0.947550157925631, 0.9541960459637507)
+Estimated variance of transitory shocks (sigma_eta^2): 0.06400975615523208
+95% CI for sigma_eta^2: (0.06052634565766512, 0.06742065827531782)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.6449699977424038
+95% CI for sigma_alpha^2: (0.6381664930511987, 0.6511044871109022)
+
+OBC Group:
+Estimated rho (persistence of income shocks): 0.9413681045634548
+95% CI for rho: (0.9406354215643897, 0.9421036383230148)
+Estimated variance of transitory shocks (sigma_eta^2): 0.0689447606232988
+95% CI for sigma_eta^2: (0.06826990479850188, 0.06959177012525856)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.5204610877901744
+95% CI for sigma_alpha^2: (0.5190536959086602, 0.5219384243861012)
+
+Other Hindus Group:
+Estimated rho (persistence of income shocks): 0.9473456759806346
+95% CI for rho: (0.9465881562207198, 0.9481993802035389)
+Estimated variance of transitory shocks (sigma_eta^2): 0.0718712001750137
+95% CI for sigma_eta^2: (0.07108666953995776, 0.07275704493200484)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.618610529868325
+95% CI for sigma_alpha^2: (0.6166625440440721, 0.6205132345485149)
+
+SC Group:
+Estimated rho (persistence of income shocks): 0.9394480891662321
+95% CI for rho: (0.9385658269175281, 0.9403422345335105)
+Estimated variance of transitory shocks (sigma_eta^2): 0.05829988533069519
+95% CI for sigma_eta^2: (0.05763754938146942, 0.05888034627189686)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.4371088089938377
+95% CI for sigma_alpha^2: (0.43563203525489136, 0.4387119328460981)
+
+ST Group:
+Estimated rho (persistence of income shocks): 0.9253387457623299
+95% CI for rho: (0.9231255444250176, 0.9272688044033239)
+Estimated variance of transitory shocks (sigma_eta^2): 0.09005564316306558
+95% CI for sigma_eta^2: (0.08824351992522822, 0.09197220588955728)
+Estimated variance of persistent shocks (sigma_alpha^2): 0.5075977657755675
+95% CI for sigma_alpha^2: (0.50409337885888, 0.5113191944051291)
+
