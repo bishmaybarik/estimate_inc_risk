@@ -1,0 +1,14 @@
+Variance of alpha (sigma_alpha^2): 0.0036143054560399406
+Variance of transitory income (sigma_nu^2): 0.5437682906609771
+Autoregressive parameter (rho): 0.5263885442698145
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.004999626448157723
+Variance of shock (sigma_xi^2): 0.3930984073736542
+
+
+Confidence Intervals:
+
+sigma_alpha_squared: 95% CI = (0.0036, 0.0037)
+sigma_nu_squared: 95% CI = (0.5426, 0.5445)
+rho: 95% CI = (-0.0005, 0.0005)
+sigma_y_p0_squared: 95% CI = (0.0036, 0.0037)
+sigma_xi_squared: 95% CI = (0.5426, 0.5445)

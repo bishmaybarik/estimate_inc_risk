@@ -1,0 +1,84 @@
+Results for SC:
+Variance of alpha (sigma_alpha^2): 0.0007151388605548122
+Variance of transitory income (sigma_nu^2): 0.40299726398835134
+Autoregressive parameter (rho): 0.4693977605592987
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.0009172377618773265
+Variance of shock (sigma_xi^2): 0.3142034629743788
+--------------------------------------------------
+Results for ST:
+Variance of alpha (sigma_alpha^2): 0.0025985767001606734
+Variance of transitory income (sigma_nu^2): 0.5848905151327447
+Autoregressive parameter (rho): 0.5407655395660235
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.0036725229121539467
+Variance of shock (sigma_xi^2): 0.41384990939542204
+--------------------------------------------------
+Results for OBC:
+Variance of alpha (sigma_alpha^2): 0.0019868555465630345
+Variance of transitory income (sigma_nu^2): 0.4747754960672697
+Autoregressive parameter (rho): 0.47820624184291644
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.002575920062685005
+Variance of shock (sigma_xi^2): 0.3662027792714369
+--------------------------------------------------
+Results for Muslims:
+Variance of alpha (sigma_alpha^2): 0.001107936758254275
+Variance of transitory income (sigma_nu^2): 0.3679681532181134
+Autoregressive parameter (rho): 0.474847749804026
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.001430482504901903
+Variance of shock (sigma_xi^2): 0.2849986677417242
+--------------------------------------------------
+Results for Other Hindus:
+Variance of alpha (sigma_alpha^2): 0.003626201512395148
+Variance of transitory income (sigma_nu^2): 0.6816126712284657
+Autoregressive parameter (rho): 0.48266396116305205
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.004727553691563335
+Variance of shock (sigma_xi^2): 0.5228214677663262
+--------------------------------------------------
+Results for Other Religions:
+Variance of alpha (sigma_alpha^2): 0.0005011848444260357
+Variance of transitory income (sigma_nu^2): 1.1735850775457013
+Autoregressive parameter (rho): 0.4616758193172843
+Variance of permanent income at t=0 (sigma_y_p0^2): 0.000636946534665322
+Variance of shock (sigma_xi^2): 0.9234514036547029
+--------------------------------------------------
+Bootstrap Confidence Intervals for SC:
+sigma_alpha_squared: 95% CI = (0.0007, 0.0007)
+sigma_nu_squared: 95% CI = (0.4024, 0.4042)
+rho: 95% CI = (-0.0007, 0.0003)
+sigma_y_p0_squared: 95% CI = (0.0007, 0.0007)
+sigma_xi_squared: 95% CI = (0.4024, 0.4042)
+--------------------------------------------------
+Bootstrap Confidence Intervals for ST:
+sigma_alpha_squared: 95% CI = (0.0026, 0.0026)
+sigma_nu_squared: 95% CI = (0.5834, 0.5855)
+rho: 95% CI = (-0.0010, 0.0004)
+sigma_y_p0_squared: 95% CI = (0.0026, 0.0026)
+sigma_xi_squared: 95% CI = (0.5834, 0.5855)
+--------------------------------------------------
+Bootstrap Confidence Intervals for OBC:
+sigma_alpha_squared: 95% CI = (0.0019, 0.0020)
+sigma_nu_squared: 95% CI = (0.4738, 0.4759)
+rho: 95% CI = (-0.0004, 0.0004)
+sigma_y_p0_squared: 95% CI = (0.0019, 0.0020)
+sigma_xi_squared: 95% CI = (0.4738, 0.4759)
+--------------------------------------------------
+Bootstrap Confidence Intervals for Muslims:
+sigma_alpha_squared: 95% CI = (0.0011, 0.0011)
+sigma_nu_squared: 95% CI = (0.3675, 0.3686)
+rho: 95% CI = (-0.0005, 0.0005)
+sigma_y_p0_squared: 95% CI = (0.0011, 0.0011)
+sigma_xi_squared: 95% CI = (0.3675, 0.3686)
+--------------------------------------------------
+Bootstrap Confidence Intervals for Other Hindus:
+sigma_alpha_squared: 95% CI = (0.0035, 0.0037)
+sigma_nu_squared: 95% CI = (0.6800, 0.6829)
+rho: 95% CI = (-0.0004, 0.0007)
+sigma_y_p0_squared: 95% CI = (0.0035, 0.0037)
+sigma_xi_squared: 95% CI = (0.6800, 0.6829)
+--------------------------------------------------
+Bootstrap Confidence Intervals for Other Religions:
+sigma_alpha_squared: 95% CI = (0.0005, 0.0005)
+sigma_nu_squared: 95% CI = (1.1711, 1.1774)
+rho: 95% CI = (-0.0009, 0.0003)
+sigma_y_p0_squared: 95% CI = (0.0005, 0.0005)
+sigma_xi_squared: 95% CI = (1.1711, 1.1774)
+--------------------------------------------------
