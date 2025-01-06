@@ -53,30 +53,38 @@ estimate_inc_risk/
 ├── LICENSE                              # License information for the project
 ├── README.md                            # Project overview and documentation
 ```
-
-
 ---
 
-## **Getting Started**
-To get started, please ensure you have the following:  
-1. Python (>= 3.8) or R installed on your system.  
-2. Required dependencies installed via `requirements.txt`.  
-3. Access to the dataset (details in the data directory).  
+## 2. **Classification of Caste Groups**
 
----
+The detailed wriiten code is available in `caste_groups.ipynb` in `02_code/` where I have broken down the caste groups systematically. 
 
-## **Future Updates**
-The repository will be updated regularly with:  
-- Full descriptions of the AR(1) income estimation model.  
-- Visualizations and results from the analysis.  
-- Expanded discussions on policy implications.  
+### 1. SC (Social Group 1):
 
-Feel free to raise issues or contribute to the repository by opening pull requests.  
+- Includes individuals belonging to the "SC" (Scheduled Caste) category.
+- Assumes that SCs are only Hindus since there is no explicit condition to include SCs from other religions.
 
----
+### ST (Social Group 2):
 
-### **Contact**
-For any questions, suggestions, or feedback, please reach out to:  
-**Bishmay Barik**  
-*Email:* [Your Email Address]  
-*LinkedIn:* [Your LinkedIn Profile]  
+- Includes individuals belonging to the "ST" (Scheduled Tribe) category.
+- Unlike SCs, STs are not restricted by religion. Therefore, STs from any religion (Hindu, Muslim, Christian, etc.) are included in this group.
+
+### OBC (Social Group 3):
+
+- Includes individuals belonging to the "OBC" (Other Backward Class) category.
+- There is no restriction based on religion, meaning OBCs from all religions are included.
+
+### Muslims (Social Group 4):
+
+- Includes all individuals who identify as Muslim in the religion variable.
+- This group encompasses Muslims from all caste categories, including SC, ST, OBC, and others.
+
+### Other Hindus (Social Group 5):
+
+- Includes Hindus belonging to the "Intermediate Caste" and "Upper Caste" categories.
+- This group excludes SCs, STs, and OBCs among Hindus, as these categories are assigned to their respective groups (1, 2, and 3).
+
+### Other Religions (Social Group 6):
+
+- Includes individuals whose social group (`interest_soc_group`) is still missing `NaN` after the above classifications.
+- Likely includes individuals from minority religions such as Christians, Sikhs, Jains, or those who do not fall into any of the above categories.
