@@ -88,3 +88,17 @@ The detailed wriiten code is available in `caste_groups.ipynb` in `02_code/` whe
 
 - Includes individuals whose social group (`interest_soc_group`) is still missing `NaN` after the above classifications.
 - Likely includes individuals from minority religions such as Christians, Sikhs, Jains, or those who do not fall into any of the above categories.
+
+---
+
+## 3. **Income Structure and Risk Estimation**
+
+The income structure and the risk estimation strategy has been taken from the methodologies proposed by (Blundell, 2014), (Blundell et. al., 2005) & Chris Tonetti's Lecture Notes from Stanford. 
+
+
+
+## References
+
+Blundell, Richard, Hamish Low, and Ian Preston. "Income risk and consumption inequality: a simulation study. 2004a." Ref Type: Report.
+
+Blundell, Richard. "Income dynamics and life‐cycle inequality: mechanisms and controversies." The Economic Journal 124, no. 576 (2014): 28
