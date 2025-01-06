@@ -99,7 +99,11 @@ The Income Structure which I have followed for the estimation process is:
 ```math
 y_{i,t} = \alpha_i + y_{i,t}^P + y_{i,t}^T
 ```
-
+where 
+- $$y_{i,t}$$ is the log form of the total income present in the dataset. 
+- $$\alpha_i$$ is the individual specific component in the equation.
+- $$y_{i,t}^P$$ is the permanent component of the total income.
+- $$y_{i,t}^P$$ is the permanent component of the total income.
 
 ## References
 
