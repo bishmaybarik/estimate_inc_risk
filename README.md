@@ -105,6 +105,21 @@ where
 - $$y_{i,t}^P$$ is the permanent component of the total income.
 - $$y_{i,t}^P$$ is the permanent component of the total income.
 
+The total income has been decomposed into the permanent and transitory components, using the residuals after running the following OLS regression, inspired by Tonetti's lecture notes on income risk estimation:
+
+```math 
+y_{i,t} = \beta_0 + \beta_1 (age)_{i,t} + \epsilon_{i,t}
+```
+The detailed codes for decomposition are available in the `02_code` folder. 
+
+And also, we incorporate and assume that the permanent component of income follows an autoregressive process of order 1 [AR(1) process], which can be observed by the following equation:
+
+```math
+y_{i,t}^P = \rho y_{i,t-1}^P + \xi_{i,t}
+```
+where $$\xi$$ is a shock parameter.
+
+For the income risk estimation, we need to find the variances of the transitory income ($$\sigma^2_{\upsilon}), variances of the permanent income at time $$t = 0$$ ($$\sigma_{y_p0}^2$$), variances of the individual specific shock component ($$\sigma_{\alpha}^2$$), the variance of the shock component $$\xi$$ ($$\sigma_{\xi}^2$$) and also estimate the autoregressive parameter ($$\rho$$). 
 ## References
 
 Blundell, Richard, Hamish Low, and Ian Preston. "Income risk and consumption inequality: a simulation study. 2004a." Ref Type: Report.
