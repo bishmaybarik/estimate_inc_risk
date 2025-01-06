@@ -132,6 +132,8 @@ Once they have been estimated across social groups in India, the estimation resu
 <!-- To fit the image to the page width -->
 <img src="03_results/caste_results.png" alt="Caste Results Graph" style="width:100%; height:auto;">
 
+Analysis of the above results will be made soon...
+
 ---
 
 ## References
