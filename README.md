@@ -95,6 +95,8 @@ The detailed wriiten code is available in `caste_groups.ipynb` in `02_code/` whe
 
 The income structure and the risk estimation strategy has been taken from the methodologies proposed by (Blundell, 2014), (Blundell et. al., 2005) & Chris Tonetti's Lecture Notes from Stanford. 
 
+The sample is restricted to male heads of households who earn a positive net income. Furthermore, only males aged 25 to 60 are included, as they are assumed to be the primary breadwinners in Indian households. This age range reflects two key considerations: it is challenging for the average Indian man to secure stable employment before his mid-20s, and post-60s is typically considered the retirement phase of life. These restrictions ensure the sample aligns with the socio-economic realities of Indian households.
+
 The Income Structure which I have followed for the estimation process is:
 ```math
 y_{i,t} = \alpha_i + y_{i,t}^P + y_{i,t}^T
@@ -119,7 +121,12 @@ y_{i,t}^P = \rho y_{i,t-1}^P + \xi_{i,t}
 ```
 where $$\xi$$ is a shock parameter.
 
-For the income risk estimation, we need to find the variances of the transitory income ($$\sigma^2_{\upsilon}), variances of the permanent income at time $$t = 0$$ ($$\sigma_{y_p0}^2$$), variances of the individual specific shock component ($$\sigma_{\alpha}^2$$), the variance of the shock component $$\xi$$ ($$\sigma_{\xi}^2$$) and also estimate the autoregressive parameter ($$\rho$$). 
+For the income risk estimation, we need to find the variances of the transitory income ($$\sigma^2_{\upsilon}$$), variances of the permanent income at time $$t = 0$$ ($$\sigma_{y_p0}^2$$), variances of the individual specific shock component ($$\sigma_{\alpha}^2$$), the variance of the shock component $$\xi$$ ($$\sigma_{\xi}^2$$) and also estimate the autoregressive parameter ($$\rho$$). 
+
+A brief theoretical and mathematical proof is given in the `04_appendix` folder. I'll be uploading a detailed proof soon. 
+
+Once they have been estimated across social groups in India, the estimation results can be found in the `03_results` folder. The file  `population_results.txt` consists of the parameter estimation results for the entire population. Whereas parameter estimations for each caste group is given in the `caste_group_results.txt ` file, along with the confidence intervals. 
+
 ## References
 
 Blundell, Richard, Hamish Low, and Ian Preston. "Income risk and consumption inequality: a simulation study. 2004a." Ref Type: Report.
