@@ -16,10 +16,10 @@ Detailed explanations of the methodology, dataset, and results will be added soo
 - Explanation of the classification methodology for caste groups in India.  
 - Data sources and criteria used to create these classifications.  
 
-### 3. **Income Structure and Risk Estimation**
+### 3. **Income Structure, Risk Estimation and Results**
 - Overview of the income structure across caste groups.  
 - Methodology for estimating income risks using an AR(1) process.  
-- Steps for implementing the model, including code snippets and example datasets.  
+- Results obtained for each caste group 
 
 ### 4. **Appendix**
 - Additional information and supplementary materials, such as intermediate results, technical notes, and potential extensions of the study.  
@@ -126,6 +126,13 @@ For the income risk estimation, we need to find the variances of the transitory 
 A brief theoretical and mathematical proof is given in the `04_appendix` folder. I'll be uploading a detailed proof soon. 
 
 Once they have been estimated across social groups in India, the estimation results can be found in the `03_results` folder. The file  `population_results.txt` consists of the parameter estimation results for the entire population. Whereas parameter estimations for each caste group is given in the `caste_group_results.txt ` file, along with the confidence intervals. 
+
+## Results
+
+<!-- To fit the image to the page width -->
+<img src="03_results/caste_results.png" alt="Caste Results Graph" style="width:100%; height:auto;">
+
+---
 
 ## References
 
