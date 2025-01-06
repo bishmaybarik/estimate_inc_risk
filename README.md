@@ -12,5 +12,5 @@ For now, you can review the income risk estimation process in the `02_code` fold
 Below is a snapshot of the results obtained from the analysis. Further explanation will be provided shortly.  
 
 <div align="center">  
-    <img src="03_results/results_new.png" alt="Income Risks Across Caste Groups" width="500">  
+    <img src="03_results/caste_results.png" alt="Income Risks Across Caste Groups" width="500">  
 </div>  
