@@ -95,6 +95,10 @@ The detailed wriiten code is available in `caste_groups.ipynb` in `02_code/` whe
 
 The income structure and the risk estimation strategy has been taken from the methodologies proposed by (Blundell, 2014), (Blundell et. al., 2005) & Chris Tonetti's Lecture Notes from Stanford. 
 
+The Income Structure which I have followed for the estimation process is:
+```math
+y_{i,t} = \alpha_i + y_{i,t}^P + y_{i,t}^T
+```
 
 
 ## References
